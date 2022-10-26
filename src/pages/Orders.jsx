@@ -10,10 +10,9 @@ import {
   Page,
   ExcelExport,
   PdfExport,
-  Edit,
   Inject,
 } from '@syncfusion/ej2-react-grids';
-import { ordersData, ContextMenuItems, ordersGrid } from '../data/dummy';
+import { ordersData, ordersGrid } from '../data/dummy';
 import { Header } from '../components';
 
 const Orders = () => {
