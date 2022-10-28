@@ -1,9 +1,8 @@
 import React from 'react';
 import { GoPrimitiveDot } from 'react-icons/go';
-import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
 import { Stacked, Button, SparkLine } from '../components';
-import { earningData, dropdownData, SparklineAreaData } from '../data/dummy';
+import { earningData, SparklineAreaData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const ECommerce = () => {
